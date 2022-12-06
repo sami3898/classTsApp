@@ -1,20 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react'
+import {NavigationContainer} from '@react-navigation/native'
+import {createNativeStackNavigator} from '@react-navigation/native-stack'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+// Screens
+import HomeScreen from './src/screens/HomeScreen'
+import DetailScreen from './src/screens/DetailScreen'
+
+
+type ScreenParamsList = {
+  Home: undefined,
+  Details: {title: string, url: string}
 }
+// Stack object
+const Stack = createNativeStackNavigator<ScreenParamsList>()
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default class App extends Component {
+  render() {
+    return (
+      <NavigationContainer >
+        <Stack.Navigator initialRouteName='Home'>
+          <Stack.Screen name='Home' component={HomeScreen} options={{title: 'PokeDex', headerStyle: {backgroundColor: '#ee1515'}, headerTitleStyle: {fontSize: 18, color: '#fff'} }} />
+          <Stack.Screen name='Details' component={DetailScreen} options={{title: 'PokeDex', headerStyle: {backgroundColor: '#ee1515'}, headerTitleStyle: {fontSize: 18, color: '#fff'} }} />
+        </Stack.Navigator>
+        </NavigationContainer>
+    )
+  }
+}

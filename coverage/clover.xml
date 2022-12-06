@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1670322282783" clover="3.2.0">
+  <project timestamp="1670322282783" name="All files">
+    <metrics statements="39" coveredstatements="23" conditionals="2" coveredconditionals="0" methods="20" coveredmethods="11" elements="61" coveredelements="34" complexity="0" loc="39" ncloc="39" packages="3" files="5" classes="5"/>
+    <package name="Component">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ListItem.tsx" path="/Volumes/Ext SSD/Project/classTsApp/src/Component/ListItem.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.DetailScreen">
+      <metrics statements="15" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
+      <file name="index.tsx" path="/Volumes/Ext SSD/Project/classTsApp/src/screens/DetailScreen/index.tsx">
+        <metrics statements="14" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Volumes/Ext SSD/Project/classTsApp/src/screens/DetailScreen/styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.HomeScreen">
+      <metrics statements="21" coveredstatements="8" conditionals="2" coveredconditionals="0" methods="11" coveredmethods="4"/>
+      <file name="index.tsx" path="/Volumes/Ext SSD/Project/classTsApp/src/screens/HomeScreen/index.tsx">
+        <metrics statements="20" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="11" coveredmethods="4"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+      </file>
+      <file name="styles.ts" path="/Volumes/Ext SSD/Project/classTsApp/src/screens/HomeScreen/styles.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
